@@ -1,0 +1,17 @@
+{
+  "name": "typescript-node-worker-threads-map-example",
+  "description": "Example of mapping an array using workers.",
+  "author": "Artem Tyurin <artem.tyurin@gmail.com>",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "npm run build && node ./build/index.js",
+    "start-without-workers": "npm run build && node ./build/index-without-workers.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "typescript": "^3.9.5"
+  }
+}
